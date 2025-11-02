@@ -1,6 +1,6 @@
 title: Jekyll:iä käyttävä sivusto K2025
 description: Tervetuloa sivustolle!
-theme: jekyll-theme-Minima
+theme: jekyll-theme-minima
 
 header_pages:
 - index.md
