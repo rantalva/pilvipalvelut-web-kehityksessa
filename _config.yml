@@ -1,6 +1,8 @@
 title: Jekyll:iä käyttävä sivusto K2025
 description: Tervetuloa sivustolle!
-theme: jekyll-theme-minima
+remote_theme: "jekyll/minima@1e8a445"
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 header_pages:
 - index.md
