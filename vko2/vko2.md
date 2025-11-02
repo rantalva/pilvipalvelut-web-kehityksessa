@@ -1,10 +1,10 @@
 GitHub Actions tarjoaa tehokkaan tavan automatisoida Jekyll-sivuston käyttöönotto. Perusputki sisältää seuraavat vaiheet:
 
-    Testaus: Määritellään workflow-tiedosto (.github/workflows/jekyll.yml), joka suorittaa automaattiset testit aina kun uusi koodi pushataan repositoryyn. Tämä voi sisältää Jekyll-sivuston rakenteen validointia ja sisällön tarkistusta.
+Testaus: Määritellään workflow-tiedosto (.github/workflows/jekyll.yml), joka suorittaa automaattiset testit aina kun uusi koodi pushataan repositoryyn. Tämä voi sisältää Jekyll-sivuston rakenteen validointia ja sisällön tarkistusta.
 
-    Buildaus: Workflow rakentaa sivuston käyttäen actions/jekyll-build-action -toimintoa.
+Buildaus: Workflow rakentaa sivuston käyttäen actions/jekyll-build-action -toimintoa.
 
-    Deploy: Valmiit sivut voidaan deployata GitHub Pagesiin automaattisesti.
+Deploy: Valmiit sivut voidaan deployata GitHub Pagesiin automaattisesti.
 
 Tämä automatisoi koko prosessin koodimuutoksista tuotantoon yhdellä commitilla.
 
